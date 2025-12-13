@@ -123,9 +123,9 @@
 
         layer_6 {
             bindings = <
-&bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &kp F5       &kp F6       &kp F7  &kp F8     &kp F9      &kp F10    &kp DEL     &kp BSPC
-&bt BT_NXT    &bt BT_PRV    &kp S         &kp D         &kp F         &kp G        &kp H        &kp J   &kp K      &kp L       &kp MINUS  &kp ENTER
-&kp LSHIFT    &kp Z         &kp X         &kp C         &kp V         &kp B        &kp N        &kp M   &kp COMMA  &kp PERIOD  &kp SLASH  &kp RSHIFT
+&bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &kp F5       &kp F6       &kp F7  &kp F8     &kp F9      &kp F10    &kp DEL         &kp BSPC
+&bt BT_NXT    &bt BT_PRV    &kp S         &kp D         &kp F         &kp G        &kp H        &kp J   &kp K      &kp L       &kp MINUS  &bt BT_CLR_ALL
+&bt BT_CLR    &kp Z         &kp X         &kp C         &kp V         &kp B        &kp N        &kp M   &kp COMMA  &kp PERIOD  &kp SLASH  &kp RSHIFT
                             &kp LCTRL     &kp LGUI      &kp LALT      &lt 1 SPACE  &lt 2 SPACE
             >;
         };
