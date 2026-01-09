@@ -44,6 +44,17 @@
         };
     };
 
+    behaviors {
+        hm_ctrl_backspace: hm_ctrl_backspace {
+            compatible = "zmk,behavior-mod-morph";
+            label = "HM_CTRL_BSPC";
+            #binding-cells = <0>;
+
+            mods = <(MOD_LCTL | MOD_RCTL)>;
+            bindings = <&kp H>, <&kp BSPC>;
+        };
+    };
+
     macros {
         to_layer_0: to_layer_0 {
             compatible = "zmk,behavior-macro-one-param";
